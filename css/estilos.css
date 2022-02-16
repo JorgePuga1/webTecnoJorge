@@ -14,23 +14,7 @@ body{
     background-color: var(--PrimarioClaro);
 }
 
-h1{
-    font-size: 1.8rem;
-}
-h2{
-    font-size: 2.8rem;
-}
-h3{
-    font-size: 0.4rem;
-    color: var(--blanco);
-}
-h4{
-    font-size: .2rem;
-}
-p{
-    font-size: .4;
-    padding: 1rem;
-}
+
 a{
     text-decoration: none;
     font-size: 1.8rem;
@@ -39,8 +23,7 @@ a{
 img{
     max-width: 100%;
 } 
-
-@media (min-width: 768px){
+ 
     h1{
         font-size: 3.8rem;
     }
@@ -57,8 +40,7 @@ img{
     p{
         font-size: .4;
         padding: 1rem;
-    }
-}
+    } 
 
 /*navegacion*/
 .navegacion{
@@ -126,8 +108,11 @@ img{
     background-color: rgba(0,0,0,.5);
     width: 20rem; 
     text-align: center;
+    padding: 1rem;
 }
- 
+.presentacion_texto h1{
+    font-size: 3rem;
+}
 
 
 @media (min-width: 768px){
@@ -148,6 +133,7 @@ img{
         width: 30rem;
         
     }
+    
 }
 /*soporte*/
 
