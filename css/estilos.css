@@ -13,18 +13,19 @@ body{
     font-family: var(--fuente);
     background-color: var(--PrimarioClaro);
 }
+
 h1{
-    font-size: 3.8rem;
-}
-h2{
     font-size: 2.8rem;
 }
-h3{
+h2{
     font-size: 1.8rem;
+}
+h3{
+    font-size: 0.8rem;
     color: var(--blanco);
 }
 h4{
-    font-size: .8rem;
+    font-size: .4rem;
 }
 p{
     font-size: .4;
@@ -38,16 +39,36 @@ a{
 img{
     max-width: 100%;
 } 
-/*navegacion*/
 
+@media (min-width: 768px){
+    h1{
+        font-size: 3.8rem;
+    }
+    h2{
+        font-size: 2.8rem;
+    }
+    h3{
+        font-size: 1.8rem;
+        color: var(--blanco);
+    }
+    h4{
+        font-size: .8rem;
+    }
+    p{
+        font-size: .4;
+        padding: 1rem;
+    }
+}
+
+/*navegacion*/
 .navegacion{
     width: 100%;
-  background-color: var(--Primario);
+    background-color: var(--Primario);
     display: grid;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
     color: var(--blanco);
-    grid-template-columns: repeat(6,1fr);
+    grid-template-columns: repeat(1,1fr);
     gap: 1rem; 
     position: fixed;
 }
@@ -55,29 +76,75 @@ img{
 .navegacion a:hover{
     background-color: var(--PrimarioClaro);
     color: var(--negro);
-    justify-content: space-between;
+    justify-content: center;
     text-align: center; 
     width: 100%;
     height: 100%;   
 }
- 
+
+@media (min-width: 768px){
+    .navegacion{
+        width: 100%;
+        background-color: var(--Primario);
+        display: grid;
+        justify-content: space-between;
+        text-align: center;
+        color: var(--blanco);
+        grid-template-columns: repeat(6,1fr);
+        gap: 1rem; 
+        position: fixed;
+    }
+    
+    .navegacion a:hover{
+        background-color: var(--PrimarioClaro);
+        color: var(--negro);
+        justify-content: space-between;
+        text-align: center; 
+        width: 100%;
+        height: 100%;   
+    }
+}
+/*contenido*/
+.contenido{
+margin: 0 auto;
+}
 /*presentacion*/
 .presentacion{
     background-image: url("../img/presentacion.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: 40rem;
-    color: var(--blanco); 
-    padding: 1rem;
-    
+    color: var(--blanco);  
 }
 .presentacion_texto{
     box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
     background-color: rgba(0,0,0,.5);
-    width: 30rem;
+    width: 15rem;
     margin: 5rem auto;
     
     text-align: center;
+}
+ 
+
+
+@media (min-width: 768px){
+    .presentacion{
+        background-image: url("../img/presentacion.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 40rem;
+        color: var(--blanco); 
+        padding: 1rem;
+        
+    }
+    .presentacion_texto{
+        box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
+        background-color: rgba(0,0,0,.5);
+        width: 30rem;
+        margin: 5rem auto;
+        
+        text-align: center;
+    }
 }
 /*soporte*/
 
