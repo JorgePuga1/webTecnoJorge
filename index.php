@@ -11,6 +11,17 @@
                 <h1>Tecno - Jorge</h1>
                 <h2>Soluciones tecnólogicas</h2>
             </div>
+           <div class="presentacion_galeria">
+               <div class="foto1">
+
+               </div>
+               <div class="foto2">
+                   
+               </div>
+               <div class="foto3">
+                   
+               </div>
+           </div>
         </div>
         <!-- presentación -->
 
