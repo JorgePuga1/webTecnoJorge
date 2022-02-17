@@ -41,15 +41,15 @@ a{
         text-align: center;
     }
     h3{
-        font-size: 1.8rem;
+        font-size: 2rem;
         color: var(--blanco);
     }
     h4{
         font-size: .8rem;
     }
-    p{
-        font-size: .4;
+    p{ 
         padding: 1rem;
+        color: var(--blanco);
     } 
  
 .icono{
@@ -167,11 +167,13 @@ a{
 
 .soporte{
     padding: 1rem;
-    background-color: var(--PrimarioClaro);
+    background-image: url('../img/soportewlp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
      width:100%;
     margin: 0 auto;
-    padding: 7rem;
+    padding: 4rem;
 }
 .soporte_contenidos{
     display: grid;
@@ -188,17 +190,17 @@ a{
     width: 100%;
     height: 100%;
     box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
-    background-color: var(--Primario);
+    background-color: RGBA(0,0,0,0.80);
     border-radius: 15%;
 } 
  
 .soporte_texto h3,
 .precio_soporte h3{
-    color: var(--PrimarioClaro);
+    color: #A0A0A0;
     text-align: center;
 }
 .precio_soporte h2{
-    color:  var(--blanco) ;
+    color:  #FF1700 ;
     text-align: center; 
 }
  
@@ -214,8 +216,8 @@ a{
         padding: 1rem;
         background-color: var(--PrimarioClaro); 
         height: 100%;
-     width:100%;
-     padding: 7rem;
+        width:100%;
+        padding: 4rem;
     }
 }
 @media (min-width: 1400px){
@@ -231,26 +233,30 @@ a{
         background-color: var(--PrimarioClaro); 
         height: 100%;
      width:100%;
-     padding: 7rem;
+     padding: 4rem;
 
     }
     .soporte_contenido{
         width: 326px;
        
         box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
-        background-color: var(--Primario);
+        background-color: RGBA(0,0,0,0.80);
     }
 } 
 
- 
+ .soporte_texto p{
+     font-size: 2rem;
+ }
 /*desarrollo*/
 .desarrollo{
     padding: 1rem;
-    background-color: var(--Primario);
+    background-image: url('../img/desarrollowllp.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100%;
      width:100%;
     margin: 0 auto;
-    padding: 7rem;
+    padding: 4rem;
 }
 .desarrollo_contenidos{
     display: grid;
@@ -267,21 +273,20 @@ a{
     width: 100%;
     height: 100%;
     box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
-    background-color: var(--PrimarioClaro);
+    background-color: RGBA(0,0,0,0.80);
     border-radius: 15%;
-
 } 
  
 .desarrollo_texto h3,
 .precio_desarrollo h3{
-    color: var(--Primario);
+    color: #A0A0A0;
     text-align: center;
 }
 .precio_desarrollo h2{
-    color:  var(--blanco) ;
+    color:  #FF1700 ;
     text-align: center; 
 }
-
+ 
 @media (min-width: 1000px){
     .desarrollo_contenidos{
    
@@ -292,10 +297,10 @@ a{
     
     .desarrollo{
         padding: 1rem;
-        background-color: var(--Primario); 
-        width:100%;
+        background-color: var(--PrimarioClaro); 
         height: 100%;
-        padding: 7rem;
+        width:100%;
+        padding: 4rem;
     }
 }
 @media (min-width: 1400px){
@@ -308,19 +313,23 @@ a{
     
     .desarrollo{
         padding: 1rem;
-        background-color: var(--Primario); 
-        width:100%;
+        background-color: var(--PrimarioClaro); 
         height: 100%;
-        padding: 7rem;
+     width:100%;
+     padding: 4rem;
 
     }
     .desarrollo_contenido{
         width: 326px;
        
         box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
-        background-color: var(--PrimarioClaro);
+        background-color: RGBA(0,0,0,0.80);
     }
 } 
+
+ .desarrollo_texto p{
+     font-size: 2rem;
+ }
 
 /*Nosotros*/
 
