@@ -25,10 +25,11 @@
                     <circle cx="18.5" cy="18.5" r="1.5" />
                     <circle cx="8.5" cy="15.5" r="4.5" />
                     </svg>
+                   
                 </div>
                     <a  href="index.php" >Inicio</a>
-                    <a href="index.php#soporte" >Soporte</a>
-                    <a  href="index.php#desarrollo" >Desarrollo</a>
+                    <a href="soporte.php" >Soporte</a>
+                    <a  href="desarrollo.php" >Desarrollo</a>
                     <a  href="#" >Contactanos</a>
                     <a   href="nosotros.php" >Nosotros</a>   
                    

@@ -52,7 +52,8 @@ a{
     } 
  
 .icono{
-   text-align: center;
+   
+    text-align: center;
     width: 100%;
     height: 100%;
     color: var(--blanco); 
@@ -81,8 +82,7 @@ a{
 
 @media (min-width: 910px){
    
-  .navegacion{ 
-    position: fixed;
+  .navegacion{  
     justify-content: space-between; 
     grid-template-columns: repeat(6,1fr);
     width: 100%;
@@ -91,39 +91,38 @@ a{
   }
     
 }
+/*contenido*/
+.contenido{
+   padding-top: 6rem; 
+}
 /*presentacion*/
 .presentacion{
     display: grid;
-    justify-content: center;
-    align-items: center; 
-    grid-template-columns: 1fr;
-    background-image: url("../img/presentacion.png");
+    justify-content: space-between;
+    align-items: center;
+    grid-template-columns: repeat(2,1fr);
+    background-image: url('../img/presentacion.png');
     background-size: cover;
     background-repeat: no-repeat;
-    
-    height: 50rem;
-    color: var(--blanco);  
-    padding: 4rem;
-     
-}
-@media (min-width: 768px){
-  .presentacion{
-      grid-template-columns: repeat(2,1fr);
-  }
+    width: 100%;
+    height: 60rem;
 }
 .presentacion_texto{
-    box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
-    background-color: rgba(0,0,0,.5);
-    margin: 0 auto;
+    background-color: RGBA(0,0,0,0.49);
+    box-shadow: 0px 0px 28px 5px rgba(0,0,0,0.15);
+    padding: 2rem;
+    margin: 2rem;
+    color: var(--blanco);
     text-align: center;
-    padding: 4rem;
 }
-.presentacion_texto h1{
-    font-size: 3rem;
-}
-@media (min-width: 768px){
+@media (max-width: 650px){
   .presentacion_texto{
-      padding: 6rem;
+   
+   margin: 1rem;
+
+  }
+  .presentacion_texto h1{
+      font-size: 2.8rem;
   }
 }
 .presentacion_galeria{
@@ -169,7 +168,7 @@ a{
 .soporte{
     padding: 1rem;
     background-color: var(--PrimarioClaro);
-    
+    height: 100%;
      width:100%;
     margin: 0 auto;
     padding: 7rem;
@@ -214,7 +213,7 @@ a{
     .soporte{
         padding: 1rem;
         background-color: var(--PrimarioClaro); 
-       
+        height: 100%;
      width:100%;
      padding: 7rem;
     }
@@ -230,7 +229,7 @@ a{
     .soporte{
         padding: 1rem;
         background-color: var(--PrimarioClaro); 
-        
+        height: 100%;
      width:100%;
      padding: 7rem;
 
@@ -248,7 +247,7 @@ a{
 .desarrollo{
     padding: 1rem;
     background-color: var(--Primario);
-    
+    height: 100%;
      width:100%;
     margin: 0 auto;
     padding: 7rem;
@@ -295,6 +294,7 @@ a{
         padding: 1rem;
         background-color: var(--Primario); 
         width:100%;
+        height: 100%;
         padding: 7rem;
     }
 }
@@ -310,6 +310,7 @@ a{
         padding: 1rem;
         background-color: var(--Primario); 
         width:100%;
+        height: 100%;
         padding: 7rem;
 
     }
