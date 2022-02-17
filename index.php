@@ -30,7 +30,9 @@
             </div>
         </div>
         <!-- nosotros -->
-
+<div class="contactanos">
+    
+</div>
 <?php 
     include './includes/footer.php';
 ?>
