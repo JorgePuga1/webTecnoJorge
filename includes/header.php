@@ -12,13 +12,26 @@
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 
 </head>
-<body>
-   
-    <nav class="navegacion">
-        <a href="index.php" >Inicio</a>
-        <a href="index.php#soporte" >Soporte</a>
-        <a href="index.php#desarrollo" >Desarrollo</a>
-        <a href="#" >Contactanos</a>
-        <a href="nosotros.php" >Nosotros</a>
-    </nav> 
+<body>         
+                
+        <nav class="navegacion">
+        <div class="icono">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-affiliate" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
+                    <path d="M11.683 12.317l5.759 -5.759" />
+                    <circle cx="5.5" cy="5.5" r="1.5" />
+                    <circle cx="18.5" cy="5.5" r="1.5" />
+                    <circle cx="18.5" cy="18.5" r="1.5" />
+                    <circle cx="8.5" cy="15.5" r="4.5" />
+                    </svg>
+                </div>
+                    <a  href="index.php" >Inicio</a>
+                    <a href="index.php#soporte" >Soporte</a>
+                    <a  href="index.php#desarrollo" >Desarrollo</a>
+                    <a  href="#" >Contactanos</a>
+                    <a   href="nosotros.php" >Nosotros</a>   
+                   
+        </nav>  
+    
 <!-- navegacion -->
