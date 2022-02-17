@@ -37,6 +37,7 @@ a{
     h2{
         font-size: 2.8rem;
         color: var(--blanco);
+        text-align: center;
     }
     h3{
         font-size: 1.8rem;
@@ -95,7 +96,7 @@ a{
     display: grid;
     justify-content: center;
     align-items: center; 
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 1fr;
     background-image: url("../img/presentacion.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -105,24 +106,33 @@ a{
     padding: 4rem;
      
 }
+@media (min-width: 768px){
+  .presentacion{
+      grid-template-columns: repeat(2,1fr);
+  }
+}
 .presentacion_texto{
     box-shadow: 0px 2px 23px -1px rgba(0,0,0,1);
     background-color: rgba(0,0,0,.5);
     margin: 0 auto;
     text-align: center;
-    padding: 2rem;
+    padding: 4rem;
 }
 .presentacion_texto h1{
     font-size: 3rem;
 }
-
+@media (min-width: 768px){
+  .presentacion_texto{
+      padding: 6rem;
+  }
+}
 .presentacion_galeria{
     display: grid;
     justify-content: space-between;
    
     grid-template-columns: repeat(2,1fr);
    gap: 1rem;
-   padding: 2rem;
+   padding: 5rem;
     width: 100%;
     height: 100%;
  }
@@ -152,18 +162,7 @@ a{
     height: 100%;
 
 }
- @media (min-width: 1000px){
-   
-.presentacion_galeria{
-    display: grid;
-    justify-content: space-between;
-    grid-template-columns: repeat(3,1fr);
-    gap: 1rem;
-    padding: 2rem;
-    width: 100%;
-    height: 100%;
- }
- }
+
 
 /*soporte*/
 
@@ -203,7 +202,7 @@ a{
     color:  var(--blanco) ;
     text-align: center; 
 }
-
+ 
 @media (min-width: 1000px){
     .soporte_contenidos{
    
