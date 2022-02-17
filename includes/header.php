@@ -28,11 +28,11 @@
                     </svg>
                  </a>
                 </div>
-                    <a  href="index.php" >Inicio</a>
-                    <a href="soporte.php" >Soporte</a>
-                    <a  href="desarrollo.php" >Desarrollo</a>
-                    <a  href="#" >Contactanos</a>
-                    <a   href="nosotros.php" >Nosotros</a>   
+                    <a class="enlaces" href="index.php" >Inicio</a>
+                    <a class="enlaces" href="soporte.php" >Soporte</a>
+                    <a  class="enlaces" href="desarrollo.php" >Desarrollo</a>
+                    <a  class="enlaces" href="#" >Contactanos</a>
+                    <a   class="enlaces" href="nosotros.php" >Nosotros</a>   
                    
         </nav>  
     

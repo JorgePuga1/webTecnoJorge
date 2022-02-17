@@ -13,7 +13,7 @@
             </div>
            <div class="presentacion_galeria">
                <div class="foto1">
-
+               <a href="soporte.php"></a>
                </div>
                <div class="foto2">
                    
