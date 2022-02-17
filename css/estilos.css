@@ -105,9 +105,9 @@ a{
     background-image: url('../img/presentacion2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
- padding: 5rem;
+    padding: 5rem;
     width: 100%;
-    height: 70rem;
+    height: 40rem;
 }
 .presentacion_texto{
     background-color: RGBA(0,0,0,0.80);
@@ -118,30 +118,42 @@ a{
     text-align: center;
      height: 20rem; 
 }
-.presentacion_nosotros{
+.nosotros{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/nosotros.jpg');
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 4rem;
+}
+.nosotros_misi_visi{
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-rows: repeat(2,1fr);
-    width: 80%;
-    height: 40rem;
+   
     text-align: center;
     gap: 2rem; 
-    margin: 0 auto;
+   
 }
 .mision,.vision{
     box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.7);
     background-color: RGBA(0,0,0,0.80);
+    border-radius: 15%;
 }
-.presentacion_nosotros p{
+.nosotros_misi_visi p{
     font-size: 2rem;
 }
+@media (min-width: 768px){
+  .nosotros_misi_visi{ 
+      grid-template-columns: repeat(2,1fr);
+      height: 30rem;
+  }
+}
 @media (max-width: 768px){
-    .presentacion{
-      
-        grid-template-columns: 1fr; 
-        height: 80rem;  
-    }
+    
   .presentacion_texto{
    
    margin: 1rem;
@@ -149,10 +161,7 @@ a{
   }
   .presentacion_texto h1{
       font-size: 2.8rem;
-  }
-  .presentacion_nosotros{
-
-  }
+  } 
 }
 
 .presentacion_galeria{
