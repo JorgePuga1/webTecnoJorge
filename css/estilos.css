@@ -100,7 +100,7 @@ a{
 .presentacion{
     display: grid;
     justify-content: space-between;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns:1fr;
     gap: 2rem;
     background-image: url('../img/presentacion2.jpg');
     background-size: cover;
