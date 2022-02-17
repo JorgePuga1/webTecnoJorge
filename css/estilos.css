@@ -180,7 +180,7 @@ a{
     align-items: center;
     grid-template-columns: repeat(1,1fr); 
     gap: 3rem; 
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
  
@@ -259,7 +259,7 @@ a{
     align-items: center;
     grid-template-columns: repeat(1,1fr); 
     gap: 3rem; 
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
  
