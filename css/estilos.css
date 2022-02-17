@@ -100,27 +100,47 @@ a{
 .presentacion{
     display: grid;
     justify-content: space-between;
-    align-items: center;
     grid-template-columns: repeat(2,1fr);
-    background-image: url('../img/presentacion.png');
+    gap: 2rem;
+    background-image: url('../img/presentacion2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+ padding: 5rem;
     width: 100%;
-    height: 60rem;
+    height: 70rem;
 }
 .presentacion_texto{
     background-color: RGBA(0,0,0,0.80);
     box-shadow: 0px 0px 28px 5px rgba(0,0,0,0.15);
     padding: 2rem;
-    margin: 2rem;
+    margin: 0 6rem;
     color: var(--blanco);
     text-align: center;
+     height: 20rem; 
+}
+.presentacion_nosotros{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows: repeat(2,1fr);
+    width: 80%;
+    height: 40rem;
+    text-align: center;
+    gap: 2rem; 
+    margin: 0 auto;
+}
+.mision,.vision{
+    box-shadow: 0px 0px 31px -1px rgba(0,0,0,0.7);
+    background-color: RGBA(0,0,0,0.80);
+}
+.presentacion_nosotros p{
+    font-size: 2rem;
 }
 @media (max-width: 768px){
     .presentacion{
       
         grid-template-columns: 1fr; 
-        height: 70rem;  
+        height: 80rem;  
     }
   .presentacion_texto{
    
@@ -130,8 +150,18 @@ a{
   .presentacion_texto h1{
       font-size: 2.8rem;
   }
+  .presentacion_nosotros{
+
+  }
 }
+
 .presentacion_galeria{
+ 
+    width: 100%;
+    height: 30rem;
+}
+ 
+/* .presentacion_galeria{
     display: grid;
     justify-content: space-between;
    
@@ -164,13 +194,19 @@ a{
     width: 100%;
     height: 20rem; 
 }
-
+.foto4{
+    background-image: url("../img/galeria4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20rem; 
+} */
 
 /*soporte*/
 
 .soporte{
     padding: 1rem;
-    background-image: url('../img/soportewlp.jpg');
+    background-image: url('../img/soportewallp3.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
