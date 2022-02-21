@@ -2,39 +2,22 @@
     include './includes/header.php';
 ?> 
        
-         <div class="desarrollo" id="desarrollo">
+         <div class="desarrollo" >
             <h2>Desarrollo</h2>
             <div class="desarrollo_contenidos">
-                <div class="desarrollo_contenido">
-                    <div class="desarrollo_texto">
-                        <h3>Básico</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur libero eius minima, maxime eum cupiditate aut excepturi, nisi quibusdam iure accusamus? Iure dolorum adipisci recusandae temporibus, quos praesentium ipsam. Id?        </p>
-                    </div> 
-                    <div class="precio_desarrollo">
-                        <h3>Precio:</h3>
-                        <h2>$5</h2>
-                    </div>
-                </div>
-                <div class="desarrollo_contenido">
-                    <div class="desarrollo_texto">
-                        <h3>Medio</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur libero eius minima, maxime eum cupiditate aut excepturi, nisi quibusdam iure accusamus? Iure dolorum adipisci recusandae temporibus, quos praesentium ipsam. Id?        </p>
-                    </div> 
-                    <div class="precio_desarrollo">
-                        <h3>Precio:</h3>
-                        <h2>$20</h2>
-                    </div>
-                </div>
-                <div class="desarrollo_contenido">
-                    <div class="desarrollo_texto">
-                        <h3>Avanzado</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur libero eius minima, maxime eum cupiditate aut excepturi, nisi quibusdam iure accusamus? Iure dolorum adipisci recusandae temporibus, quos praesentium ipsam. Id?        </p>
-                    </div> 
-                    <div class="precio_desarrollo">
-                        <h3>Precio:</h3>
-                        <h2>$25</h2>
-                    </div>
-                </div>
+                <h2>Proyectos a la venta</h2>
+                <br>
+               <ul>
+                   <li>ChatBot</li>
+                   <li>Calculadora</li>
+                   <li>tic tac toe</li>
+                   <li>CRUD html bootstrap php mysql</li>
+                   <li>Aplicación helpdesk</li>
+                   <li>Aplicacion Helpdesk v2</li>
+                   <li><span>continuara...</span></li>
+                  
+               </ul>
+               
               
             </div>
         </div>
